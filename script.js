@@ -20,7 +20,7 @@ getNumbers()
         return new Promise((resolve) => {
             setTimeout(() => {
                 const evens = numbers.filter(num => num % 2 === 0);
-                updateOutput(evens.join(', ')); // Update with even numbers
+                updateOutput(evens.join(',')); // Update with even numbers
                 resolve(evens);
             }, 1000);
         });
