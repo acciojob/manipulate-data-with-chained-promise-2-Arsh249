@@ -30,7 +30,7 @@ getNumbers()
         return new Promise((resolve) => {
             setTimeout(() => {
                 const doubled = evens.map(num => num * 2);
-                updateOutput(doubled.join(', ')); // Update with doubled numbers
+                updateOutput(doubled.join(',')); // Update with doubled numbers
                 resolve(doubled);
             }, 2000);
         });
